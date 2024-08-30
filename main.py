@@ -32,4 +32,3 @@ for x in range (1,factoring+1):
 
 
 
-
