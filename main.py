@@ -7,20 +7,14 @@ print  ("You can buy ",affordabol, "nintendos")
 print ("You needa hustle cuh you need \u20b1",needmoney," if ya want more  ")
 
 
-if userinput < 500:
-    print("You cant be using mah code broke ahh")
-    # Exercise 1
-    for x in range(1, 5):
-        print ( "get a job")
-else:
 
-    #Exercise 1.2
-    print ("\nFactoring numbers")
-    inputfactorial = int (input("Enter a number foo: "))
-    factorial = 1
-    for i in range(1, inputfactorial + 1):
-        factorial *= i
-    print ("Factorial of your number is ", factorial)
+#Exercise 1.2
+print ("\nFactoring numbers")
+inputfactorial = int (input("Enter a number foo: "))
+factorial = 1
+for i in range(1, inputfactorial + 1):
+    factorial *= i
+print ("Factorial of your number is ", factorial)
 
 
 
