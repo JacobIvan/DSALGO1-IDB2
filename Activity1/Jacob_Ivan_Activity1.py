@@ -38,13 +38,13 @@ def SelectionSortAscending(arr2):
                 min_idx = j
         arr2[i], arr2[min_idx] = arr2[min_idx], arr2[i]
 
-def SelectionSortDescending(arr2):
-    for i in range(len(arr2)):
+def SelectionSortDescending(arr):
+    for i in range(len(arr)):
         min_idx = i
-        for j in range(i + 1, len(arr2)):
-            if arr2[min_idx] < arr2[j]:
+        for j in range(i + 1, len(arr)):
+            if arr[min_idx] < arr[j]:
                 min_idx = j
-        arr2[i], arr2[min_idx] = arr2[min_idx], arr2[i]
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
 
 '''''
 print("After Selection Sort")
