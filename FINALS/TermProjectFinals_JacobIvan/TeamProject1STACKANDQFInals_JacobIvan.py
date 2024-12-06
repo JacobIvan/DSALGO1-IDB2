@@ -1,7 +1,6 @@
 from LinkedStack import LinkedStack
 from LinkedQueue import LinkedQueue
 class StackandQueue:
-
     def __init__(self):
         self.front_queue = LinkedQueue()
         self.back_stack = LinkedStack()
